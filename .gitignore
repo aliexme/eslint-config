@@ -1,0 +1,12 @@
+# Editor
+.idea
+
+# Node.js
+node_modules
+
+# Build
+*.tgz
+
+# ESLint
+!.eslintrc.js
+.eslintcache

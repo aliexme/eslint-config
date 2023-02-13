@@ -1,0 +1,31 @@
+{
+  "name": "@aliexme/eslint-config",
+  "version": "0.0.0",
+  "description": "Rule set for ESLint",
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "homepage": "https://github.com/aliexme/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliexme/eslint-config"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./base": "./rules/base.js"
+  },
+  "scripts": {
+    "lint:check": "eslint --ext .js --ignore-path .gitignore --cache ./",
+    "lint:fix": "pnpm lint:check --fix"
+  },
+  "devDependencies": {
+    "eslint": "8.34.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "peerDependenciesMeta": {}
+}

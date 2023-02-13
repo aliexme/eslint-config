@@ -1,2 +1,3 @@
-# eslint-config
+# @aliexme/eslint-config
+
 Rule set for ESLint

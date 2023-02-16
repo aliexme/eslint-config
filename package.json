@@ -24,6 +24,9 @@
     "./import": "./rules/import.js",
     "./typescript": "./rules/typescript.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepare": "husky install",
     "lint:check": "eslint --ext .js,.mjs,.ts --ignore-path .gitignore --cache ./",

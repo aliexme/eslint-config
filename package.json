@@ -1,6 +1,6 @@
 {
   "name": "@aliexme/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Rule set for ESLint",
   "private": false,
   "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
@@ -48,7 +48,11 @@
     "eslint-plugin-import": "^2.27.5"
   },
   "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": { "optional": true },
-    "@typescript-eslint/parser": { "optional": true }
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    }
   }
 }

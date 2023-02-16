@@ -13,6 +13,10 @@
     "eslint",
     "eslintconfig"
   ],
+  "files": [
+    "./index.js",
+    "./rules/**"
+  ],
   "exports": {
     ".": "./index.js",
     "./base": "./rules/base.js"

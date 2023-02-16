@@ -18,11 +18,14 @@
     "./base": "./rules/base.js"
   },
   "scripts": {
-    "lint:check": "eslint --ext .js --ignore-path .gitignore --cache ./",
+    "prepare": "husky install",
+    "lint:check": "eslint --ext .js,.mjs --ignore-path .gitignore --cache ./",
     "lint:fix": "pnpm lint:check --fix"
   },
   "devDependencies": {
-    "eslint": "8.34.0"
+    "eslint": "8.34.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.1.2"
   },
   "peerDependencies": {
     "eslint": ">=8"

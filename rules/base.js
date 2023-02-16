@@ -1,7 +1,12 @@
 module.exports = {
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+  },
   "env": {
     "browser": true,
     "node": true,
+    "es6": true,
   },
   "extends": [
     "eslint:recommended",
@@ -27,11 +32,19 @@ module.exports = {
       "asyncArrow": "always",
     }],
     "no-constant-condition": ["error", { "checkLoops": false }],
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "ImportDeclaration[specifiers.length = 0]",
+        "message": "Empty imports are not allowed",
+      },
+    ],
     "no-trailing-spaces": "error",
     "no-multi-spaces": "error",
     "eol-last": "error",
-    "no-console": "error",
     "arrow-parens": "error",
     "no-useless-rename": "error",
+    "no-var": "error",
+    "no-console": "warn",
   },
 }

@@ -1,9 +1,37 @@
 module.exports = {
   "env": {
+    "browser": true,
     "node": true,
   },
   "extends": [
     "eslint:recommended",
   ],
-  "rules": {},
+  "rules": {
+    "quotes": ["error", "single"],
+    "quote-props": ["error", "as-needed"],
+    "semi": ["error", "never"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "max-len": ["error", 120],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
+    "comma-dangle": ["error", "always-multiline"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "key-spacing": "error",
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "object-curly-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "never"],
+    "computed-property-spacing": ["error", "never", { "enforceForClassMembers": true }],
+    "space-in-parens": ["error", "never"],
+    "space-before-function-paren": ["error", {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always",
+    }],
+    "no-constant-condition": ["error", { "checkLoops": false }],
+    "no-trailing-spaces": "error",
+    "no-multi-spaces": "error",
+    "eol-last": "error",
+    "no-console": "error",
+    "arrow-parens": "error",
+    "no-useless-rename": "error",
+  },
 }

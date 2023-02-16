@@ -19,7 +19,8 @@
   ],
   "exports": {
     ".": "./index.js",
-    "./base": "./rules/base.js"
+    "./base": "./rules/base.js",
+    "./import": "./rules/import.js"
   },
   "scripts": {
     "prepare": "husky install",
@@ -28,11 +29,13 @@
   },
   "devDependencies": {
     "eslint": "8.34.0",
+    "eslint-plugin-import": "2.27.5",
     "husky": "8.0.3",
     "lint-staged": "13.1.2"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": ">=8",
+    "eslint-plugin-import": "^2.27.5"
   },
   "peerDependenciesMeta": {}
 }

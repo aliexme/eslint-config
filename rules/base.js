@@ -45,6 +45,9 @@ module.exports = {
     "arrow-parens": "error",
     "no-useless-rename": "error",
     "no-var": "error",
+    "prefer-const": "error",
+    "no-new-object": "error",
+    "object-shorthand": "error",
     "no-console": "warn",
   },
 }

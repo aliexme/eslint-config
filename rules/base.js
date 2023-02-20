@@ -90,7 +90,7 @@ module.exports = {
     "spaced-comment": ["error", "always", {
       "markers": ["!", "?"],
     }],
-    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 1 }],
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
     "no-whitespace-before-property": "error",
     "padded-blocks": ["error", "never"],
     "block-spacing": ["error", "always"],

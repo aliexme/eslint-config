@@ -23,6 +23,7 @@ module.exports = {
       "newlines-between": "always-and-inside-groups",
       "warnOnUnassignedImports": true,
     }],
+    "import/no-duplicates": ["error", { "prefer-inline": true }],
     "import/no-self-import": "error",
     "import/no-mutable-exports": "error",
     "import/first": "error",

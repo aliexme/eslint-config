@@ -5,7 +5,7 @@ Rule set for ESLint
 ## Installation
 
 ```
-npm install --save-dev @aliexme/eslint-config eslint-plugin-import
+npm i --save-dev @aliexme/eslint-config eslint-plugin-import
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Extend your ESLint config file:
 To check ts-files, install additional packages:
 
 ```
-npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm i --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 And add the following lines to your ESLint config file:

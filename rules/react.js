@@ -14,6 +14,11 @@ module.exports = {
         "plugin:react/jsx-runtime",
         "plugin:react-hooks/recommended",
       ],
+      "settings": {
+        "react": {
+          "version": "detect",
+        },
+      },
       "rules": {
         "react/jsx-tag-spacing": [
           "error",

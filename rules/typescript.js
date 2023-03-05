@@ -27,7 +27,10 @@ module.exports = {
             "allowSingleExtends": true,
           },
         ],
-        "@typescript-eslint/consistent-type-imports": ["error", { "prefer": "type-imports" }],
+        "@typescript-eslint/consistent-type-imports": [
+          "error",
+          { "prefer": "type-imports", "fixStyle": "inline-type-imports" },
+        ],
         "@typescript-eslint/type-annotation-spacing": "error",
       },
     },

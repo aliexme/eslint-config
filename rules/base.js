@@ -86,7 +86,7 @@ module.exports = {
       "error",
       "always",
       {
-        "markers": ["!", "?"],
+        "markers": ["/", "!", "?"],
       },
     ],
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],

@@ -1,6 +1,3 @@
 module.exports = {
-  "extends": [
-    "./rules/base.js",
-    "./rules/import.js",
-  ],
+  "extends": ["./rules/base.js", "./rules/import.js"],
 }

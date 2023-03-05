@@ -5,7 +5,7 @@ Rule set for ESLint
 ## Installation
 
 ```
-npm i --save-dev @aliexme/eslint-config eslint-plugin-import
+npm i --save-dev eslint @aliexme/eslint-config eslint-plugin-import
 ```
 
 ## Usage
@@ -35,6 +35,25 @@ And add the following lines to your ESLint config file:
   "extends": [
     "@aliexme/eslint-config",
     "@aliexme/eslint-config/typescript",
+  ],
+}
+```
+
+## Prettier
+
+Install additional packages:
+
+```
+npm i --save-dev prettier eslint-plugin-prettier eslint-config-prettier
+```
+
+And add the following lines to your ESLint config file:
+
+```
+{
+  "extends": [
+    "@aliexme/eslint-config",
+    "@aliexme/eslint-config/prettier",
   ],
 }
 ```

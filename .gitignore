@@ -7,6 +7,12 @@ node_modules
 # Build
 *.tgz
 
+# Publish
+!.np-config.js
+
 # ESLint
 !.eslintrc.js
 .eslintcache
+
+# Prettier
+!.prettierrc.js

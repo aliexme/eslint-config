@@ -8,7 +8,12 @@ module.exports = {
         },
       },
       "plugins": ["react", "react-hooks"],
-      "extends": ["plugin:import/react", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+      "extends": [
+        "plugin:import/react",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:react-hooks/recommended",
+      ],
       "rules": {
         "react/jsx-tag-spacing": [
           "error",

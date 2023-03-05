@@ -1,3 +1,3 @@
 export default {
-  "*.{js,mjs}": ["pnpm lint:check"],
+  "*.{js,mjs,.jsx}": ["pnpm lint:check"],
 }

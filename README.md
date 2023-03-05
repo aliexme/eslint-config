@@ -39,6 +39,25 @@ And add the following lines to your ESLint config file:
 }
 ```
 
+## React
+
+Install additional packages:
+
+```
+npm i --save-dev eslint-plugin-react eslint-plugin-react-hooks
+```
+
+And add the following lines to your ESLint config file:
+
+```
+{
+  "extends": [
+    "@aliexme/eslint-config",
+    "@aliexme/eslint-config/react",
+  ],
+}
+```
+
 ## Prettier
 
 Install additional packages:

@@ -11,6 +11,7 @@ module.exports = {
   "extends": ["eslint:recommended"],
   "rules": {
     "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"],
     "quote-props": ["error", "as-needed"],
     "semi": ["error", "never"],
     "indent": ["error", 2, { "SwitchCase": 1 }],

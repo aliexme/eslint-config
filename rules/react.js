@@ -38,7 +38,7 @@ module.exports = {
       },
     },
     {
-      "files": ["**/*.{tsx}"],
+      "files": ["**/*.tsx"],
       "rules": {
         "react/prop-types": "off",
       },

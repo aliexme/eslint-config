@@ -100,7 +100,7 @@ module.exports = {
       "error",
       {
         "min": 2,
-        "exceptions": ["i", "e"],
+        "exceptions": ["_", "i", "e"],
         "exceptionPatterns": ["[x-z]"],
       },
     ],

@@ -37,5 +37,11 @@ module.exports = {
         "react/no-unused-prop-types": "error",
       },
     },
+    {
+      "files": ["**/*.{tsx}"],
+      "rules": {
+        "react/prop-types": "off",
+      },
+    },
   ],
 }

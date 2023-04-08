@@ -24,6 +24,7 @@
     "./import": "./rules/import.js",
     "./typescript": "./rules/typescript.js",
     "./react": "./rules/react.js",
+    "./react-native": "./rules/react-native.js",
     "./prettier": "./rules/prettier.js"
   },
   "publishConfig": {
@@ -43,6 +44,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-native": "4.0.0",
     "husky": "8.0.3",
     "lint-staged": "13.1.2",
     "prettier": "2.8.4",
@@ -57,6 +59,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.0.0",
     "prettier": "^2.8.4"
   },
   "peerDependenciesMeta": {
@@ -76,6 +79,9 @@
       "optional": true
     },
     "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-react-native": {
       "optional": true
     },
     "prettier": {

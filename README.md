@@ -58,6 +58,25 @@ And add the following lines to your ESLint config file:
 }
 ```
 
+## React Native
+
+Install additional packages:
+
+```
+npm i --save-dev eslint-plugin-react-native
+```
+
+And add the following lines to your ESLint config file:
+
+```
+{
+  "extends": [
+    "@aliexme/eslint-config",
+    "@aliexme/eslint-config/react-native",
+  ],
+}
+```
+
 ## Prettier
 
 Install additional packages:
